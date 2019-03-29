@@ -14,7 +14,7 @@ Author URI: https://happyprime.co
 function wp_scripts_demo_scripts() {
     wp_enqueue_script(
         'wp-scripts-demo-blocks',
-        get_theme_file_uri( '/build/index.js' ),
+        plugin_dir_url( __FILE__ ) . '/build/index.js',
         array(
             'wp-blocks',
         ),
