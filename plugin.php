@@ -1,9 +1,12 @@
 <?php
-/**
- * WP Scripts Demo PHP
- *
- * @package wp-scripts-demo
- */
+/*
+Plugin Name: WP Scripts Demo Plugin
+Plugin URI: https://github.com/happyprime/wp-scripts-demo-plugin
+Description: A demo plugin that starts with the wp-scripts package and builds its way up
+Author: Happy Prime, jeremyfelt
+Version: 0.0.1
+Author URI: https://happyprime.co
+*/
 
 /**
  * Enqueue scripts.
