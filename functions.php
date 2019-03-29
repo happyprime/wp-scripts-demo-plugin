@@ -19,4 +19,4 @@ function wp_scripts_demo_scripts() {
         true
     );
 }
-add_action( 'admin_enqueue_scripts', 'wp_scripts_demo_scripts' );
+add_action( 'enqueue_block_editor_assets', 'wp_scripts_demo_scripts' );
